@@ -1,0 +1,58 @@
+// import del font
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+// colori generali
+$silver: #BCBCBC;
+$tuna: #343142;
+$darkBlue: #171621;
+$white: #FEFEFE;
+$darkPurple: #323043;
+
+$porcelain: #ECEEEF;
+$linkWater: #ECF2F9;
+
+$mountainMeadow: #1EAE96;
+$charade: #282935;
+$boulder:  #797979;
+
+
+// grandezze testo
+$h1: 34px;
+$h2: 18px;
+$h3: 16px;
+$h5: 14px;
+$mediumSmallText: 12px;
+$smallText: 10px;
+
+// grandezze generali
+.container-60 {
+    width: 60%;    
+    margin: auto;
+}
+.container-85 {
+    width: 85%;    
+    margin: auto;
+}
+.container-80 {
+    width: 80%;    
+    margin: auto;
+}
+
+button {
+    font-size: $smallText;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+.button-full {
+    border: 1px solid $mountainMeadow;
+    background-color: $mountainMeadow;
+    color: $white;
+    padding: 10px 30px;
+}
+.button-empty {
+    border: 1px solid $silver;
+    background-color: $white;
+    color: $mountainMeadow;
+    padding: 10px 40px;
+}

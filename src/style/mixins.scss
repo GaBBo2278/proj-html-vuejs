@@ -1,0 +1,36 @@
+@import "../style/general.scss";
+
+ @mixin flex {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ @mixin flex-space-between {
+     display: flex;
+     align-items: center;
+ }
+ @mixin flex-space-evenly {
+     display: flex;
+     align-items: center;     
+     justify-content: space-evenly;
+ }
+ @mixin flex-vertical-only {
+     display: flex;
+     align-items: center;
+ }
+
+ @mixin flex-column {
+    display: flex;
+    flex-direction: column;
+ }
+
+@mixin ul-clean {
+    list-style: none;
+    margin: auto;
+    padding: 0;
+}
+
+@mixin link-clean {
+    text-decoration: none;
+}
